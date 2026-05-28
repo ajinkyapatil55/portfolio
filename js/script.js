@@ -202,29 +202,12 @@ function initBackToTop() {
   });
 }
 
-/* ── 9. CONTACT FORM — EmailJS (sends real email to patilajinkya5101@gmail.com) ──
- *
- * HOW TO ACTIVATE (one-time setup — 5 minutes, FREE):
- * ─────────────────────────────────────────────────────
- * 1. Go to https://www.emailjs.com and create a FREE account
- * 2. Click "Add New Service" → choose Gmail → connect patilajinkya5101@gmail.com
- *    → Copy the SERVICE ID (e.g. "service_abc123")
- * 3. Click "Email Templates" → Create Template → use these variables in the template:
- *       From:    {{from_firstname}} {{from_lastname}}
- *       Email:   {{from_email}}
- *       Company: {{from_company}}
- *       Subject: {{subject}}
- *       Message: {{message}}
- *    → Save → Copy the TEMPLATE ID (e.g. "template_xyz789")
- * 4. Click "Account" → copy your PUBLIC KEY (e.g. "user_ABCDEF123")
- * 5. Paste your 3 IDs in the CONFIG section below — done!
- * ─────────────────────────────────────────────────────
- */
+
 function initContactForm() {
   /* ── CONFIG: Replace these 3 values with your EmailJS IDs ── */
-  var EMAILJS_SERVICE_ID  = 'service_jako80m';   // e.g. 'service_abc123'
-  var EMAILJS_TEMPLATE_ID = 'template_sa2pk9h';  // e.g. 'template_xyz789'
-  var EMAILJS_PUBLIC_KEY  = 'w6UvBaVku48NUAkMv';   // e.g. 'user_ABCDEF123'
+  var EMAILJS_SERVICE_ID  = 'service_jako80m';   
+  var EMAILJS_TEMPLATE_ID = 'template_sa2pk9h';  
+  var EMAILJS_PUBLIC_KEY  = 'w6UvBaVku48NUAkMv';   
   /* ─────────────────────────────────────────────────────────── */
 
   // Initialise EmailJS with your public key
